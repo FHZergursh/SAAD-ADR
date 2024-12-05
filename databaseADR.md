@@ -15,7 +15,6 @@ The program will require a database to properly store the data it will need. The
 
 * MySQL
 * SQLite
-* … <!-- numbers of options can vary -->
 
 ## Decision Outcome
 
@@ -26,7 +25,6 @@ Chosen option: "MySQL", because I have the most familiarity and experience with 
 
 * Good, because less time will need to be spent learning the system and more time can be dedicated towards other aspects of the project.
 * Bad, because SQLite is likely to be a more efifcient system in handling queries. 
-* … <!-- numbers of consequences can vary -->
 
 <!-- This is an optional element. Feel free to remove. -->
 ### Confirmation
