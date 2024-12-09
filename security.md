@@ -9,42 +9,30 @@ decision-makers: {Flinn Hancock}
 
 ## Context and Problem Statement
 
-{Describe the context and problem statement, e.g., in free form using two to three sentences or in the form of an illustrative story. You may want to articulate the problem in form of a question and add links to collaboration boards or issue management systems.}
-
-<!-- This is an optional element. Feel free to remove. -->
-## Decision Drivers
-
-* {decision driver 1, e.g., a force, facing concern, …}
-* {decision driver 2, e.g., a force, facing concern, …}
-* … <!-- numbers of drivers can vary -->
+Storing user information securely is an important part of the project, and it's important to prevent the theft of any information. There's a number of ways this data can be protected, deciding which ones are useful is important.
 
 ## Considered Options
 
-* {title of option 1}
-* {title of option 2}
-* {title of option 3}
-* … <!-- numbers of options can vary -->
+* Password Hashing
+* Captchas 
+* Password Minimum Requirements
 
 ## Decision Outcome
 
-Chosen option: "{title of option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
+Chosen option: "Hashing & Password Minimum Requirements", because the combination of the two will result in a very difficult to crack password
 
-<!-- This is an optional element. Feel free to remove. -->
 ### Consequences
 
-* Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
-* Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
-* … <!-- numbers of consequences can vary -->
+* Good, because the password will be difficult for any hackers to break the encryption on a hashed password. 
+* Bad, because the password requirements may annoy users who have to create a new password to meet the requirements. 
 
-<!-- This is an optional element. Feel free to remove. -->
 ### Confirmation
 
 {Describe how the implementation / compliance of the ADR can/will be confirmed. Is there any automated or manual fitness function? If so, list it and explain how it is applied. Is the chosen design and its implementation in line with the decision? E.g., a design/code review or a test with a library such as ArchUnit can help validate this. Note that although we classify this element as optional, it is included in many ADRs.}
 
-<!-- This is an optional element. Feel free to remove. -->
 ## Pros and Cons of the Options
 
-### {title of option 1}
+Password Hashing
 
 <!-- This is an optional element. Feel free to remove. -->
 {example | description | pointer to more information | …}
@@ -56,7 +44,17 @@ Chosen option: "{title of option 1}", because {justification. e.g., only option,
 * Bad, because {argument d}
 * … <!-- numbers of pros and cons can vary -->
 
-### {title of other option}
+Captchas
+
+{example | description | pointer to more information | …}
+
+* Good, because {argument a}
+* Good, because {argument b}
+* Neutral, because {argument c}
+* Bad, because {argument d}
+* …
+
+Password Minimum Requirements
 
 {example | description | pointer to more information | …}
 

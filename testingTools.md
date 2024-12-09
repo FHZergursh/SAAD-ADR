@@ -9,7 +9,7 @@ decision-makers: {Flinn Hancock}
 
 ## Context and Problem Statement
 
-{Describe the context and problem statement, e.g., in free form using two to three sentences or in the form of an illustrative story. You may want to articulate the problem in form of a question and add links to collaboration boards or issue management systems.}
+In order to make sure the code properly works, the application needs to be thuroughly tested. Certain software will be useful for this, but deciding on the right tool for the right job is important.  
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Decision Drivers
