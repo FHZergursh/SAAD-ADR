@@ -1,8 +1,8 @@
 ---
 # These are optional metadata elements. Feel free to remove any of them.
-status: "accepted"
+status: "Accepted"
 date: {2024-12-5 when the decision was last updated}
-decision-makers: {Myself}
+decision-makers: {Flinn Hancock}
 ---
 
 # Choosing a database system
