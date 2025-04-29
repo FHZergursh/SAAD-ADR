@@ -14,11 +14,11 @@ The program will require a database to properly store the data it will need. The
 ## Considered Options
 
 * MySQL
-* SQLite
+* MongoDB
 
 ## Decision Outcome
 
-Chosen option: "MySQL", because I have the most familiarity and experience with the DBS in how to use it.
+Chosen option: "MongoDB", because the implementation of a NoSQL database is much more scaleable for Advanced Media Libraries
 
 <!-- This is an optional element. Feel free to remove. -->
 ### Consequences
@@ -29,7 +29,7 @@ Chosen option: "MySQL", because I have the most familiarity and experience with 
 <!-- This is an optional element. Feel free to remove. -->
 ### Confirmation
 
-The implementation of MySQL is likely to be successful, as I already have most of the framework ready from prior usage. 
+The implementation of MongoDB was successful in testing
 
 ## Pros and Cons of the Options
 
@@ -40,6 +40,6 @@ MySQL:
 
 SQLite
 
-* Good, because it would be more efficient than MySQL.
+* Good, because it would be easier to scale  upwards than MySQL.
 * Good, because it would expand my skillset by learning a new tool.
 * Bad, because I would have to learn a new database system, time that could be spent developing the project.
